@@ -1,6 +1,6 @@
 body {
 	overflow-x: hidden; /*--right gutter fix--*/
-	font-family: Lato;
+    font-family: Lato, Helvetica, sans-serif;
     line-height: 2;
 }
 
