@@ -1,123 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Longo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/latofonts.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121626439-6"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-121626439-6');
-    </script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Longo Group</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
-<div class="container">
-    <div class="row mt-4">
-        <div class="col-12 col-md-10 offset-md-1">
-            <div class="panel">
-                <div class="row mb-5">
-                    <div class="col-12 text-center d-md-none">
-                        <img class="longo-logo" src="images/longo_logo.svg"/>
-                    </div>
-                    <div class="col-md-4 offset-md-1 align-self-center d-none d-md-block">
-                        <img class="longo-logo" src="images/longo_logo.svg"/>
-                    </div>
-                    <div class="col-12 col-md-7 d-none d-md-block" >
-                        <div class="rectangle-3-copy"></div>
-                    </div>
-                    <div class="col-12 col-md-7 d-md-none mt-5" style="height:400px;">
-                    <div class="rectangle-3-copy-mobile">
-                    </div>
-                    </div>
-                </div>
+<body data-spy="scroll" data-target="#menu">
 
-                <div class="row">
-                    <div class="d-none d-md-block col-md-2">
-                        <div style="position: absolute; left: -105px;" class="rectangle-3-copy-4"></div>
-                    </div>
-                    <div class="col-sm-12 col-md-8">
-                        <div class="buying-of-a-car-will">
-                            Een nieuwe speler in automotive!
-                        </div>
-                        <div class="longo-group-is-a-ret">
-                            De Longo groep is een van de grootste spelers in de gebruikte automarkt in de Baltische staten en Oost-Europa. Via verschillende sub-merken en locaties bieden wij een breed assortiment aan gebruikte auto’s aan in diverse prijsklassen. Wij proberen elke dag om onze klanten een betrouwbare, eenvoudige en veilige ervaring te bieden bij de aanschaf en financiering van een gebruikte auto. Bij dit concept horen betaalbare auto’s met een transparante en betrouwbare technische en optische staat. Hiervoor is in 2018 onze eigen inkoop organisatie opgericht in Nederland. Longo Netherlands koopt op grote schaal personen auto’s in diverse prijsklassen voor export, zowel via veilingen als direct bij partnerrelaties.
-                        </div>
-                        <div class="bg-24">
-                            <div class="trust-is-the-solid-f">
-                                Longo is gebouwd op een reputatie van betrouwbaarheid
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div id="section-home">
 
-                <div class="row">
-                    <div class="col-sm-12 col-md-8 offset-md-2">
-                        <div class="longo-latvia-as-was">
-                            Bent u actief in de verkoop van gebruikte personenauto’s in Nederland ? Neemt u dan eens contact op. Wij kunnen u enkele belangrijke voordelen bieden:<br>
-                            <ul>
-                                <li>Direct vrijwaren - Longo heeft een RDW Erkenning Bedrijfsvoorraad en OREH Erkenning;</li>
-                                <li>Geen onzin biedingen - ons eigen pricing team gebruikt Nederlandse handelsprijzen als uitgangspunt;</li>
-                                <li>Altijd correcte en snelle betaling en afhandeling;</li>
-                                <li>Geen reclamaties - onze eigen technische inspectie inspecteert de auto op uw locatie;
-                                </li>
-                                <li>Geen papierwerk - wij regelen het transport, export en BPM teruggave via onze eigen BV en betalen u incl. BTW en BPM.
-                                </li>
-                            </ul>
-                            Tot binnenkort!
-                        </div>
-                        <div class="bg"></div>
-                        <div class="meanwhile-skanstes-i" style="margin-bottom: 28px;">
-                            Openingstijden:<br><br>
-                            Voor afhalen en bezorgen:<br>
-                            Maandag -Vrijdag 09:00-15:00 uur<br>
-                            Zaterdag, Zondag: gesloten<br><br>
-                            Kantoor:<br>
-                            Maandag -Vrijdag 09:00-17:00 uur<br>
-                            Zaterdag, Zondag: gesloten<br>
-                        </div>
+		<nav class="navbar navbar-light navbar-expand-md fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#section-home">
+					<img id="longo-logo" src="img/longo_logo.png">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#section-home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-about">About us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-contact">Contacts</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-                        <div class="bg"></div>
-                        <div class="meanwhile-skanstes-i">
-                            Correspondentie:<br>
-                            Longo Netherlands B.V.<br>
-                            Hans Hermans (Relatiemanager)<br>
-                            Laaglandseweg 47, 4214 KD Vuren<br>
-                            Tel. 0183-513867<br>
-                            <a href="mailto:hans.hermans@longo.nl" style="color: #0074A7;">hans.hermans@longo.nl</a>
-                        </div>
-                        <div>
-                            <div class="fill-1"></div>
-                            <div class="slogan">Koop met waardigheid, rij met plezier!</div>
-                        </div>
-                    </div>
-                    <div class="d-none d-md-block col-md-2">
-                        <div class="rectangle-3-copy-3"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row mt-4 mb-4">
-        <div class="col-12">
-            <div class="copyright-longo-latvia">
-                © 2018, Longo Netherlands B.V.
-            </div>
-        </div>
-    </div>
+		<div class="landing-main">
+			<div class="home-wrap-main">
+				<div class="home-inner-main">
+				</div>
+			</div>
+		</div>
+		<div class="caption-home center-block text-center">
+			<h3 id="caption-text">“NR.1 USED CAR DEALER IN BALTIC”</h3>
+		</div>
 </div>
+
+	<div id="section-about">
+		<div class="image-text-block">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-12 col-md-5">
+					<div class="landing-left-1">
+						<div class="home-wrap">
+							<div class="home-inner">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-12 col-md-4">
+					<div class="caption center-block text-center">
+						<h3 class="caption-heading-right-1">“Nr.1 used car dealer in Baltic”</h3>
+						<p class="caption-text-right-1">Longo Group is retail company operating since 2018 in pre-owned car segment in all three Baltic states – Vilnius, Riga and Tallinn. Over the last six months, the company has been growing quite rapidly, growing by 20% per month. This dynamic growth has allowed company to take Leaders position in used cars field in Baltics</p>
+					</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+		<div class="image-text-block">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-12 col-md-4">
+					<div class="caption-2 center-block text-center">
+						<h3 id="caption-heading-left-2">The widest range of cars with proven history</h3>
+						<p class="caption-text-left-2">Values like transparency, reliability, and professional approach in our daily routine’s inwards and outwards. Every month more than 250 cars have been sourced and the whole process, starting with the purchase of a car in sourcing countries, up to its export to Baltics, technical inspection and registration is done inside the company and the team of professionals takes care of it</p>
+					</div>
+				</div>
+				<div class="col-1"></div>
+			<div class="col-12 col-md-5">
+					<div class="landing-right-2">
+						<div class="home-wrap">
+							<div class="home-inner-2">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+		<div class="image-text-block">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-12 col-md-5">
+				<div class="landing-left-1">
+					<div class="home-wrap">
+						<div class="home-inner-3">
+						</div>
+					</div>
+				</div>
+			</div>
+				<div class="col-1"></div>
+				<div class="col-12 col-md-4">
+					<div class="caption center-block text-center">
+						<h3 class="caption-heading-right-1">Buy safely, reliably and with a REAL GUARANTEE</h3>
+						<p class="caption-text-right-1">We believe that the purchase of a pre-owned car should be as save, honest and easy as acquisition of a brand-new vehicle. Among existing more than 800 car stock customer can find bestselling car models in all 3 car lot’s. Company is proud, that each of the car lot are conveniently located: in Vilnius- Parodu 2 ( near exhibition area), in Riga - Mukusalas 72a ( near shopping mall), in Tallinn - Peterburi 81 ( near office business area) and are spacious amongst others on the Baltic market – each of them more then -10 000m2.</p>
+					</div>
+				</div>
+				<div class="col-1"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="section-contact">
+		<div class="footer footer-inner-block">
+			<div class="footer-block-text">
+				<div class="row">
+					<div class="col-2"></div>
+					<div class="col-12 col-md-8">
+						<p class="footer-hedding">Longo Latvia HQ</p>
+						<p class="footer-text">Skanstes iela 50, Rīga, LV-1013 info@longo.lv</p>
+					</div>
+					<div class="col-2"></div>
+				</div>
+			</div>
+			<div id="map"></div>
+			<div class="row footer-link-block">
+				<div class="col-2"></div>
+				<div class="col-12 col-md-8">
+					<p class="footer-slogan">Buy respectfully, drive joyfully!</p>
+					<p class="footer-links">www.longo.lv | www.longo.lt | www.longo.ee</p>
+				</div>
+				<div class="col-2"></div>
+			</div>
+			</div>
+		</div>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/14.2.1/smooth-scroll.min.js"></script>
+<script type="text/javascript">
+	$(function () {
+		var scroll = new SmoothScroll('a[href*="#section-"]');
+	});
+</script>
+<script>
+	$(function(){
+		var navMain = $(".navbar-collapse");
+		navMain.on("click", "a:not([data-toggle])", null, function () {
+			navMain.collapse('hide');
+		});
+	});
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf43lPdwlF98RCBsJOFNKOkoEjkwxb5Sc&callback=initMap"async defer></script>
+<script>
+	function initMap() {
+		// Styles a map in night mode.
+		var uluru = {lat: 56.976373, lng: 24.132051};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			center: uluru,
+			zoom: 13,
+			styles: [
+				{elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+				{elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+				{elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+				{
+					featureType: 'administrative.locality',
+					elementType: 'labels.text.fill',
+					stylers: [{color: '#d59563'}]
+				},
+				{
+					featureType: 'poi',
+					elementType: 'labels.text.fill',
+					stylers: [{color: '#d59563'}]
+				},
+				{
+					featureType: 'poi.park',
+					elementType: 'geometry',
+					stylers: [{color: '#263c3f'}]
+				},
+				{
+					featureType: 'poi.park',
+					elementType: 'labels.text.fill',
+					stylers: [{color: '#6b9a76'}]
+				},
+				{
+					featureType: 'road',
+					elementType: 'geometry',
+					stylers: [{color: '#38414e'}]
+				},
+				{
+					featureType: 'road',
+					elementType: 'geometry.stroke',
+					stylers: [{color: '#212a37'}]
+				},
+				{
+					featureType: 'road',
+					elementType: 'labels.text.fill',
+					stylers: [{color: '#9ca5b3'}]
+				},
+				{
+					featureType: 'road.highway',
+					elementType: 'geometry',
+					stylers: [{color: '#746855'}]
+				},
+				{
+					featureType: 'road.highway',
+					elementType: 'geometry.stroke',
+					stylers: [{color: '#1f2835'}]
+				},
+				{
+					featureType: 'road.highway',
+					elementType: 'labels.text.fill',
+					stylers: [{color: '#f3d19c'}]
+				},
+				{
+					featureType: 'transit',
+					elementType: 'geometry',
+					stylers: [{color: '#2f3948'}]
+				},
+				{
+					featureType: 'transit.station',
+					elementType: 'labels.text.fill',
+					stylers: [{color: '#d59563'}]
+				},
+				{
+					featureType: 'water',
+					elementType: 'geometry',
+					stylers: [{color: '#17263c'}]
+				},
+				{
+					featureType: 'water',
+					elementType: 'labels.text.fill',
+					stylers: [{color: '#515c6d'}]
+				},
+				{
+					featureType: 'water',
+					elementType: 'labels.text.stroke',
+					stylers: [{color: '#17263c'}]
+				}
+			]
+		});
+		var marker = new google.maps.Marker({position: uluru, map: map});
+	}
+</script>
 </body>
 </html>
