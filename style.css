@@ -318,12 +318,20 @@ a[x-apple-data-detectors] {
     .home-inner, .home-inner-2, .home-inner-3 {
         position: static;
     }
+
+    .home-inner-main {
+        position: static;
+    }
 }
 
 /*Ie 10/11*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
 {
     .home-inner, .home-inner-2, .home-inner-3 {
+        position: static;
+    }
+
+    .home-inner-main {
         position: static;
     }
 }
