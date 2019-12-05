@@ -4,8 +4,8 @@ body {
     line-height: 2;
 }
 
-/*Edge*/
-@supports ( -ms-accelerator:true )
+/*Edge - works to 41.16299.402.0*/
+@supports (-ms-ime-align:auto)
 {
     html{
         overflow: hidden;
@@ -14,8 +14,10 @@ body {
     body{
         overflow: auto;
         height: 100%;
+        position: relative;
     }
 }
+
 /*Ie 10/11*/
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
 {
