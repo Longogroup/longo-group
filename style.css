@@ -4,27 +4,6 @@ body {
     line-height: 2;
 }
 
-/*Edge - works to 41.16299.402.0*/
-@supports (-ms-ime-align:auto)
-{
-    .home-inner, .home-inner-2, .home-inner-3 {
-        position: center;
-    }
-}
-
-/*Ie 10/11*/
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
-{
-    html{
-        overflow: hidden;
-        height: 100%;
-    }
-    body{
-        overflow: auto;
-        height: 100%;
-    }
-}
-
 *:focus {outline:none}
 
 a {
@@ -330,5 +309,21 @@ a[x-apple-data-detectors] {
 
     .footer-links {
         font-size: 12px;
+    }
+}
+
+/*Edge - works to 41.16299.402.0*/
+@supports (-ms-ime-align:auto)
+{
+    .home-inner, .home-inner-2, .home-inner-3 {
+        position: center;
+    }
+}
+
+/*Ie 10/11*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
+{
+    .home-inner, .home-inner-2, .home-inner-3 {
+        position: center;
     }
 }
