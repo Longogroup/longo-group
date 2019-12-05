@@ -316,7 +316,7 @@ a[x-apple-data-detectors] {
 @supports (-ms-ime-align:auto)
 {
     .home-inner, .home-inner-2, .home-inner-3 {
-        position: center;
+        position: static;
     }
 }
 
@@ -324,6 +324,6 @@ a[x-apple-data-detectors] {
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)
 {
     .home-inner, .home-inner-2, .home-inner-3 {
-        position: center;
+        position: static;
     }
 }
